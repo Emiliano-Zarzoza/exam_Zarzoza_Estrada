@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.6867659515203169 0.7008302241960813 0.1928458573204621 0.7292311054415271
-  position 2.4936560485128982 3.001412292130995 4.611939121374272
+  orientation -0.7454397062072038 0.6506259865757062 0.14493263953336027 0.5352651720842706
+  position 1.0545869240603039 1.2806928696225022 2.628319178942043
 }
 TexturedBackground {
 }
@@ -12,7 +12,7 @@ TexturedBackgroundLight {
 Floor {
 }
 Robot {
-  translation -1.2000000000000002 0.075 0.1
+  translation -0.14999999999999955 0.075 1.0408340855860843e-17
   children [
     DEF GR_BODY Group {
       children [
@@ -84,6 +84,9 @@ Robot {
         anchor -0.05 0 -0.06
       }
       device [
+        PositionSensor {
+          name "encoder2"
+        }
         RotationalMotor {
           name "motor_left"
           maxVelocity 52.3604

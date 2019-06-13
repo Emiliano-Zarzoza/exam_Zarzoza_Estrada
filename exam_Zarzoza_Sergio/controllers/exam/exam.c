@@ -35,6 +35,7 @@ int main(int argc, char **argv)
                                 // TIME_STEP, to use our real keyboard on wb
   int pressed_key;
 
+
   /*
    * You should declare here WbDeviceTag variables for storing
    * robot devices like this:
@@ -44,6 +45,7 @@ int main(int argc, char **argv)
    // Motor devices
    WbDeviceTag wheel_right = wb_robot_get_device("motor_right");
    WbDeviceTag wheel_left = wb_robot_get_device("motor_left");
+   WbDeviceTag encoder1 = wb_robot_get_device("encoder1")
 
    wb_motor_set_position (wheel_right, INFINITY);
    wb_motor_set_position (wheel_left, INFINITY);
