@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.7454397062072038 0.6506259865757062 0.14493263953336027 0.5352651720842706
-  position 1.0545869240603039 1.2806928696225022 2.628319178942043
+  orientation -0.24071796415553684 0.9546500353265045 0.17520893751152472 1.2672288175215596
+  position 2.143561926533777 0.9407787355040569 1.0313879494481164
 }
 TexturedBackground {
 }
@@ -49,7 +49,7 @@ Robot {
       device [
         PositionSensor {
           name "encoder1"
-          resolution 1
+          resolution 64
         }
         RotationalMotor {
           name "motor_right"
@@ -86,6 +86,7 @@ Robot {
       device [
         PositionSensor {
           name "encoder2"
+          resolution 64
         }
         RotationalMotor {
           name "motor_left"
